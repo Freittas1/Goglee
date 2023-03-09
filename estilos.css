@@ -57,6 +57,7 @@ a:hover{
     width: 450px;
     line-height: 30px;
     border-radius: 20px;
+    padding: 0em 0.5em;
 }
 
 #botoes {
