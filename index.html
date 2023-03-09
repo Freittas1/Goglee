@@ -3,7 +3,9 @@
     <head>
         <title>Meu Site</title>
         <link href="https://fonts.googleapis.com/css/family=roboto">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
         <link rel="stylesheet" href="estilos.css">
+        <script type="text/javascript" src="main.js"></script>
    </head>
 
  <body>
@@ -17,18 +19,19 @@
         </nav>
     </header>
     <div id="google">
-        <img src= "https://raw.githubusercontent.com/Freittas1/Goglee/e5c1eee987354444f4d880d339735a50ee2709dc/google-logo.svg"/>
+        <img src= "google-logo.svg"/>
     </div>
-    <divid id="form">
-         <form>
-            <input id="barra_de_pesquisa" type="text">
-         </form>
-         </div>
-         <div id="botoes">
-            <input type="submit" value="Pesquisa Google">
-            <input type="submit" value="Estou com sorte">  
-   
+    <div id="form">
+        <form>
+            <input id="barra_de_pesquisa"/>
         </div>
+        
+        <div id="botoes">
+            <button type="submit" onclick="getData()">Pesquisa Google</button>
+            <button>Estou com sorte</button>  
+            
+        </div>
+    </form>
     <footer>
         <ul id="footer_esquerdo">
             <li><a target="_blank"; href="https://ads.google.com/">Publicidade</a></li>    
